@@ -1,0 +1,50 @@
+body{
+text-align: center;
+
+
+}
+img{
+    width: 75px;
+    height: 75px;
+    padding-bottom: 5px;
+}
+
+.one h1{
+    background-color: brown;
+    color: white;
+    margin: auto;
+}
+.are{
+display: flex;
+gap: 100px;
+grid-template-columns: auto;
+width: 100px;
+height: 100px;
+
+}
+.two{
+background-color: brown;
+width: 40%;
+margin: auto;
+
+}
+.are img{
+animation: move 3s ease infinite alternate;
+}
+
+.are p{
+    background-color: brown;
+   
+}
+@keyframes move{
+from{transform: translate(1px) rotate(-45deg);
+}
+to{
+    transform: translate(200px) rotate(45deg);
+}
+}
+@media (max-width:768px ){
+  .are{
+    display: flex;
+  }
+}
