@@ -46,5 +46,11 @@ to{
 @media (max-width:768px ){
   .are{
     display: flex;
+      flex-direction:column;
   }
+    .are p{
+        padding:10px;
+    }
+    
 }
+
